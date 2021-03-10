@@ -1,4 +1,4 @@
-package br.com.singleresponsability.payloads;
+package br.com.singleresponsability.singleresponsability.payloads;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;

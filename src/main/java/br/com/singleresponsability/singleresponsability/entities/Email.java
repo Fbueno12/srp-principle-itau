@@ -1,4 +1,4 @@
-package br.com.singleresponsability.entities;
+package br.com.singleresponsability.singleresponsability.entities;
 
 import lombok.*;
 
