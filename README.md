@@ -4,8 +4,8 @@
 `uma classe deve ter uma, e somente uma, razão para mudar`
 
 Ele é o primeiro dos princípios do SOLID, ele dita que uma classe só pode ter uma única responsabilidade 
-no fluxo da aplicação caso a aplicação seja uma API cada classe será responsável por alguma coisa.
-No caso de nossa aplicação cada pasta dentro da aplicação abriga uma responsabilidade diferente, por exemplo,
+no fluxo da aplicação.<br /> caso a aplicação seja uma API cada classe será responsável por alguma coisa.
+No caso da nossa aplicação cada pasta abriga uma responsabilidade diferente, por exemplo.
 - `resources` abriga as rotas da aplicação definidas no contrato de serviço
 - `entities` abriga os objetos que usaremos dentro do fluxo da aplicação
 - `payloads` abriga o que entra e o que sai das rotas que foram definidos no contrato de serviço 
