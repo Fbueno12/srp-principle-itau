@@ -1,4 +1,4 @@
-package br.com.singleresponsability.payload;
+package br.com.singleresponsability.payloads;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
