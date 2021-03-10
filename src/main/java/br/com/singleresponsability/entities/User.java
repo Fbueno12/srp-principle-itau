@@ -4,7 +4,7 @@ import lombok.*;
 
 @Builder
 @Getter @Setter
-@AllArgsConstructor @NoArgsConstructor
+@AllArgsConstructor @NoArgsConstructor @ToString
 public class User {
 
     private String name;

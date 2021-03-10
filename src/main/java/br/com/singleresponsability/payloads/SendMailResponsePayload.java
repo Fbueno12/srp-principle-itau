@@ -8,14 +8,11 @@ import lombok.*;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class SendMailRequestPayload {
+public class SendMailResponsePayload {
 
-    @JsonProperty(value = "sender")
-    private UserPayload sender;
-    @JsonProperty(value = "receiver")
-    private UserPayload receiver;
+    @JsonProperty(value = "status")
+    private Integer status;
     @JsonProperty(value = "message")
-    private MessagePayload message;
-
+    private String message;
 
 }
