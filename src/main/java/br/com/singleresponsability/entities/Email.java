@@ -7,10 +7,11 @@ import lombok.*;
 @AllArgsConstructor @NoArgsConstructor
 public class Email {
 
-    private String head;
     private String subject;
+    private String head;
     private String description;
 
+    private User sender;
     private User receiver;
 
 }
